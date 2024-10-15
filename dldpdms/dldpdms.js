@@ -42,6 +42,7 @@ function sliderEffect(){
             currentIndex = 0;
         }, 600);
     };
+};
     // 2초마다 슬라이드 전환
     setInterval(sliderEffect, sliderInterval);
 
@@ -49,5 +50,4 @@ function sliderEffect(){
     window.addEventListener('resize', () => {
         sliderWidth = slider[currentIndex].offsetWidth;
     });
-};
 
